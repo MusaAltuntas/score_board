@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Skorbord</title>
+</head>
+<body>
+    <div class="container" style="border-radius: 2rem;">
+        <div class="team">
+            <div id="Team A">
+                <h2 class="teamName" id="teamA-name"> <img class="logo" src="https://media.fenerbahce.org/FB/media/FB/Images/Logo/logo.png?ext=.png" alt="">  Fenerbahce</h2>
+                
+            </div>
+            <div class="scoreControls" id="scoreControls">
+                <button class="operation" onclick="reduceScore('A')">-</button>
+                <p id="teamA-score">0</p>
+                <button class="operation" onclick="increaseScore('A')" style="margin-top:5px ;">+</button>
+            </div>
+            <div>
+                <div class="modifier">
+                    <button class="btn" onclick="setScore('A')">Skoru Değiştir</button>
+                    <button class="btn" onclick="changeName('A')">İsmi Değiştir</button>
+                </div>   
+                <div class="reset">
+                    <button onclick="reset('A')">Reset</button>
+                </div>
+                
+            </div>
+        </div>
+        
+        <div class="team">
+            <div id="Team B">
+                <h2 class="teamName" id="teamB-name"><img class="logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Galatasaray_Sports_Club_Logo.png/721px-Galatasaray_Sports_Club_Logo.png" alt="" >  Galatasaray</h2>
+                
+            </div>
+            <div class="scoreControls" id="scoreControls">
+                <button class="operation" onclick="reduceScore('B')">-</button>
+                <p id="teamB-score">0</p>
+                <button class="operation" onclick="increaseScore('B')" style="margin-top: 5px;">+</button>
+            </div>
+
+            <div class="modifier">
+                <div >
+                    <button class="btn" onclick="setScore('B')">Skoru Değiştir</button>
+                    <button class="btn" onclick="changeName('B')">İsmi Değiştir</button>
+                </div>  
+                <div class="reset">
+                    <button onclick="reset('B')">Reset</button>
+                </div> 
+            </div>
+        </div>
+        
+    </div>
+</body>
+<script src="script.js"></script>
+</html>

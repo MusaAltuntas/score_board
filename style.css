@@ -1,0 +1,66 @@
+body {
+    background-image: url(scoreboard.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position:absolute;
+    top: 20%;
+    left: 18%;
+
+ 
+}
+.team{
+    border-radius: 2rem;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 5px;
+    margin: 20px;
+}
+.teamName{
+    text-align: center;
+    font-size:4rem;
+}
+p{
+    color: white;
+    font-size: 7rem;
+    text-align: center
+}
+button{
+    color: white;
+    border: none;
+    background-color: transparent;
+    margin: 10px;
+    font-size: 2rem;
+}
+.scoreControls{
+    height:80px;
+    display: flex;
+    margin-bottom: 40px;
+    justify-content: center;
+    align-items: center;
+    
+}
+.btn{
+    color: white;
+    border: none;
+}
+
+.operation{
+    text-align: center;
+    justify-content: center;
+    margin : auto;
+    font-size: 80px;
+}
+.reset{
+    text-align: center;
+}
+.logo{
+    width: 50px;
+    height: 50px;
+}
